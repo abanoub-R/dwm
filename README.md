@@ -36,4 +36,4 @@ to install dwm and/or dwmblocks, run:
 ```sh
 $ cd {dwm or dwmblocks}
 # make clean install
-```sh
+```
