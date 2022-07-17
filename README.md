@@ -17,7 +17,7 @@ note - even though gcc is listed as mandatory, you can edit config.mk to support
 ### optional
 * shell scripts for dwmblocks, to install, run:
 
-```sh
+```
 $ cd scripts
 $ chmod +x *
 # mv * /usr/local/bin` (doesn't have to be /usr/local/bin, just has to be on $PATH)
@@ -33,7 +33,7 @@ $ chmod +x *
 ### install
 to install dwm and/or dwmblocks, run:
 
-```sh
+```
 $ cd {dwm or dwmblocks}
 # make clean install
 ```
