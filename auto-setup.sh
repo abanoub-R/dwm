@@ -19,6 +19,9 @@ patch --merge -i dwm-barpadding-6.2.diff .
 
 echo "done"
 
+echo "removing patch directory"
+rm -rf patches
+
 echo "setting up scripts"
 chmod +x scripts/*
 
