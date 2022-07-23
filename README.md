@@ -2,7 +2,10 @@
 my personalized build of dwm
 
 # setup
-before starting, install the dependencies
+before starting, run the auto.sh script to apply the patches and setup the scripts for dwmblocks
+(NOTE : THIS WILL NOT CARRY OVER THE SETTINGS FROM THE CONFIG, TO APPLY THEM, SEE CONFIG.TXT)
+
+now install the dependencies
 
 ### mandatory
 * libX11
@@ -15,14 +18,6 @@ note - you may need the dev variants of the libX11/Xft packages depending on you
 note - even though gcc is listed as mandatory, you can edit config.mk to support any compiler you want.
 
 ### optional
-* shell scripts for dwmblocks, to install, run:
-
-```
-$ cd scripts
-$ chmod +x *
-# mv * /usr/local/bin` (doesn't have to be /usr/local/bin, just has to be on $PATH)
-```
-
 * rxvt-unicode
 * maim
 * xclip
